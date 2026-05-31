@@ -1,8 +1,14 @@
+import Navbar from "./components/Navbar";
+import FeaturedBurgers from "./components/FeaturedBurgers";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
+
+      {/* Navbar */}
+      <Navbar />
+
       {/* Hero Section */}
-      <section className="flex min-h-screen flex-col items-center justify-center text-center px-6">
+   <section className="flex h-[70vh] flex-col items-center justify-center text-center px-6">
         <h1 className="text-6xl font-bold text-yellow-400 mb-6">
           MEET THE CHEESE
         </h1>
@@ -20,7 +26,11 @@ export default function Home() {
             Order on WhatsApp
           </button>
         </div>
-      </section>
-    </main>
+     </section>
+
+{/* Featured Burgers */}
+<FeaturedBurgers />
+
+</main>
   );
 }
