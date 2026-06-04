@@ -34,6 +34,14 @@ export default function Contact() {
 >
   Order on WhatsApp
 </a>
+<a
+  href="https://maps.app.goo.gl/nc3f3s2j3mRCK8uB6"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-4 inline-block rounded-full border border-yellow-400 px-8 py-4 font-bold text-yellow-400 hover:bg-yellow-400 hover:text-black"
+>
+  Open in Google Maps
+</a>
 
       </div>
     </section>
