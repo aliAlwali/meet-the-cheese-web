@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function FeaturedBurgers() {
   return (
-    <section className="px-8 py-20">
+    <section id="menu" className="px-8 py-20">
       <h2 className="mb-10 text-center text-4xl font-bold text-yellow-400">
         Featured Burgers
       </h2>
@@ -28,9 +28,14 @@ export default function FeaturedBurgers() {
             <p className="text-xl font-bold text-yellow-400">
   AED 32
 </p>
-<button className="mt-4 w-full rounded-lg bg-yellow-400 py-3 font-bold text-black hover:bg-yellow-300">
+<a
+  href="https://wa.me/971508565521?text=Hello%20Meet%20The%20Cheese,%20I'd%20like%20to%20order%20the%20Cheese%20Monster."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-4 block w-full rounded-lg bg-yellow-400 py-3 text-center font-bold text-black hover:bg-yellow-300"
+>
   Order Now
-</button>
+</a>
           </div>
         </div>
 <div className="rounded-2xl bg-zinc-900 overflow-hidden transition duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-yellow-500/20">  <Image
@@ -52,9 +57,14 @@ export default function FeaturedBurgers() {
       <p className="text-xl font-bold text-yellow-400">
   AED 29
 </p>
-<button className="mt-4 w-full rounded-lg bg-yellow-400 py-3 font-bold text-black hover:bg-yellow-300">
+<a
+  href="https://wa.me/971508565521?text=Hello%20Meet%20The%20Cheese,%20I'd%20like%20to%20order%20the%20Triple%20Melt."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-4 block w-full rounded-lg bg-yellow-400 py-3 text-center font-bold text-black hover:bg-yellow-300"
+>
   Order Now
-</button>
+</a>
   </div>
 </div>
 
@@ -77,9 +87,14 @@ export default function FeaturedBurgers() {
       <p className="text-xl font-bold text-yellow-400">
   AED 35
 </p>
-<button className="mt-4 w-full rounded-lg bg-yellow-400 py-3 font-bold text-black hover:bg-yellow-300">
+<a
+  href="https://wa.me/971508565521?text=Hello%20Meet%20The%20Cheese,%20I'd%20like%20to%20order%20the%20BBQ%20Cheese."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-4 block w-full rounded-lg bg-yellow-400 py-3 text-center font-bold text-black hover:bg-yellow-300"
+>
   Order Now
-</button>
+</a>
   </div>
 </div>
 

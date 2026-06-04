@@ -1,5 +1,8 @@
+import About from "./components/About";
 import Navbar from "./components/Navbar";
 import FeaturedBurgers from "./components/FeaturedBurgers";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
@@ -8,7 +11,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-   <section className="flex h-[70vh] flex-col items-center justify-center text-center px-6">
+   <section id="home"className="flex h-[70vh] flex-col items-center justify-center text-center px-6">
         <h1 className="text-6xl font-bold text-yellow-400 mb-6">
           MEET THE CHEESE
         </h1>
@@ -22,15 +25,22 @@ export default function Home() {
             View Menu
           </button>
 
-          <button className="rounded-full border border-white px-6 py-3 font-bold hover:bg-white hover:text-black">
-            Order on WhatsApp
-          </button>
+<a
+  href="https://wa.me/971508565521?text=Hello%20Meet%20The%20Cheese,%20I'd%20like%20to%20place%20an%20order."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-full border border-white px-6 py-3 font-bold hover:bg-white hover:text-black"
+>
+  Order on WhatsApp
+</a>
         </div>
      </section>
 
 {/* Featured Burgers */}
 <FeaturedBurgers />
-
+<About />
+<Contact />
+<Footer />
 </main>
   );
 }
